@@ -3,7 +3,7 @@
     "name": "Product 1",
     "price": "$19.99",
     "description": "This is a great product!",
-    "image": "images/product1.jpeg"
+    "image": "Images/product1.jpeg"
   },
   {
     "name": "Product 2",

@@ -9,60 +9,60 @@
     "name": "Product 2",
     "price": "$29.99",
     "description": "This product is amazing!",
-    "image": "images/product2.jpeg"
+    "image": "Images/product2.jpeg"
   },
   {
     "name": "Product 3",
     "price": "$39.99",
     "description": "You'll love this product!",
-    "image": "images/product3.jpeg"
+    "image": "Images/product3.jpeg"
   },
   {
     "name": "Product 4",
     "price": "$49.99",
     "description": "Best value for your money!",
-    "image": "images/product4.jpeg"
+    "image": "Images/product4.jpeg"
   },
   {
     "name": "Product 5",
     "price": "$59.99",
     "description": "High quality and durable.",
-    "image": "images/product5.jpeg"
+    "image": "Images/product5.jpeg"
   },
   {
     "name": "Product 6",
     "price": "$69.99",
     "description": "Perfect for your needs.",
-    "image": "images/product6.jpeg"
+    "image": "Images/product6.jpeg"
   },
   {
     "name": "Product 7",
     "price": "$79.99",
     "description": "Made to last.",
-    "image": "images/product7.jpeg"
+    "image": "Images/product7.jpeg"
   },
   {
     "name": "Product 8",
     "price": "$89.99",
     "description": "A top-seller!",
-    "image": "images/product8.jpeg"
+    "image": "Images/product8.jpeg"
   },
   {
     "name": "Product 9",
     "price": "$99.99",
     "description": "Premium quality.",
-    "image": "images/product9.jpeg"
+    "image": "Images/product9.jpeg"
   },
   {
     "name": "Product 10",
     "price": "$109.99",
     "description": "Great performance.",
-    "image": "images/product10.jpeg"
+    "image": "Images/product10.jpeg"
   },
   {
     "name": "Product 11",
     "price": "$119.99",
     "description": "amazing product",
-    "image": "images/product11.jpeg"
+    "image": "Images/product11.jpeg"
   }
 ]

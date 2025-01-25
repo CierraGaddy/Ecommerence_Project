@@ -64,5 +64,11 @@
     "price": "$119.99",
     "description": "amazing product",
     "image": "Images/product11.jpeg"
+  },
+  {
+    "name": "Product 12",
+    "price": "$120.99",
+    "description": "best product",
+    "image": "Images/product12.jpeg"
   }
 ]

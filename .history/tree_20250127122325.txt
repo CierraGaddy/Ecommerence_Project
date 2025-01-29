@@ -1,0 +1,127 @@
+.
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   ├── index
+│   ├── info
+│   ├── logs
+│   ├── objects
+│   └── refs
+├── .history
+│   ├── backend
+│   ├── frontend
+│   ├── product_20241120135307.js
+│   └── product_20250125115233.js
+├── .vscode
+│   └── settings.json
+├── backend
+│   ├── .env
+│   ├── Model
+│   ├── config
+│   ├── controllers
+│   ├── db.js
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── routes
+│   └── server.js
+├── frontend
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   ├── src
+│   ├── style.css
+│   └── vite.config.js
+├── node_modules
+│   ├── .bin
+│   ├── .package-lock.json
+│   ├── accepts
+│   ├── array-flatten
+│   ├── body-parser
+│   ├── bytes
+│   ├── call-bind-apply-helpers
+│   ├── call-bound
+│   ├── content-disposition
+│   ├── content-type
+│   ├── cookie
+│   ├── cookie-signature
+│   ├── debug
+│   ├── depd
+│   ├── destroy
+│   ├── dunder-proto
+│   ├── ee-first
+│   ├── encodeurl
+│   ├── es-define-property
+│   ├── es-errors
+│   ├── es-object-atoms
+│   ├── escape-html
+│   ├── etag
+│   ├── express
+│   ├── finalhandler
+│   ├── foreachasync
+│   ├── forwarded
+│   ├── fresh
+│   ├── function-bind
+│   ├── get-intrinsic
+│   ├── get-proto
+│   ├── gopd
+│   ├── handlebars
+│   ├── has-symbols
+│   ├── hasown
+│   ├── hbs
+│   ├── http-errors
+│   ├── iconv-lite
+│   ├── inherits
+│   ├── ipaddr.js
+│   ├── math-intrinsics
+│   ├── media-typer
+│   ├── merge-descriptors
+│   ├── methods
+│   ├── mime
+│   ├── mime-db
+│   ├── mime-types
+│   ├── minimist
+│   ├── ms
+│   ├── negotiator
+│   ├── neo-async
+│   ├── object-inspect
+│   ├── on-finished
+│   ├── parseurl
+│   ├── path-to-regexp
+│   ├── proxy-addr
+│   ├── qs
+│   ├── range-parser
+│   ├── raw-body
+│   ├── safe-buffer
+│   ├── safer-buffer
+│   ├── send
+│   ├── serve-static
+│   ├── setprototypeof
+│   ├── side-channel
+│   ├── side-channel-list
+│   ├── side-channel-map
+│   ├── side-channel-weakmap
+│   ├── source-map
+│   ├── statuses
+│   ├── toidentifier
+│   ├── type-is
+│   ├── uglify-js
+│   ├── unpipe
+│   ├── utils-merge
+│   ├── vary
+│   ├── walk
+│   └── wordwrap
+├── package-lock.json
+├── package.json
+├── product.js
+├── product.json
+└── tree.txt
+
+99 directories, 26 files

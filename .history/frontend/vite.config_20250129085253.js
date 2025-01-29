@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: "0.0.0.0",
       port: 5175,
-      allowedHosts: ["https://ecommerence-project-2.onrender.com"],
+      allowedHosts: [""],
     },
   };
 });

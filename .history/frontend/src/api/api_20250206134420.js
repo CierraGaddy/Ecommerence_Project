@@ -4,6 +4,7 @@ export const fetchProducts = async (filters = {}) => {
   try {
     let query = supabase.from("products").select("*");
 
+    // Apply filters dynamically
     if (filters.category && filters.category.trim() !== "") {
       query = query.eq("category", filters.category.trim());
     }
@@ -21,7 +22,7 @@ export const fetchProducts = async (filters = {}) => {
       throw error;
     }
 
-    console.log("Fetched Products:", data);
+    console.log("✅ Fetched Products:", data);
     return data || [];
   } catch (error) {
     console.error("Error fetching products:", error);

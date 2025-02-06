@@ -1,4 +1,4 @@
-//Fetches products from database as JSON
+//Fetches product
 import { getProducts } from "../Model/productModel.js";
 
 // Controller function to fetch products from Supabase

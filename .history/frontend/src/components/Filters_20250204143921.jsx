@@ -11,7 +11,7 @@ const Filters = ({ filters, onFilterChange }) => {
         <select
           name="category"
           value={filters.category}
-          onChange={(e) => onFilterChange("category", e.target.value)}
+          onChange={onFilterChange}
         >
           <option value="">All Categories</option>
           <option value="Foundation">Foundation</option>
@@ -27,7 +27,7 @@ const Filters = ({ filters, onFilterChange }) => {
           type="number"
           name="minPrice"
           value={filters.minPrice}
-          onChange={(e) => onFilterChange("minPrice", e.target.value)}
+          onChange={onFilterChange}
           placeholder="0"
         />
       </label>
@@ -39,7 +39,7 @@ const Filters = ({ filters, onFilterChange }) => {
           type="number"
           name="maxPrice"
           value={filters.maxPrice}
-          onChange={(e) => onFilterChange("maxPrice", e.target.value)}
+          onChange={onFilterChange}
           placeholder="100"
         />
       </label>

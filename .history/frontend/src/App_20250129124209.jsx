@@ -1,4 +1,3 @@
-//Routes pages to components
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom"; // React Router for navigation
 import "./App.css"; // Import global styles

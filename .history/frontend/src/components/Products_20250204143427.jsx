@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { fetchProducts } from "../api/api"; // Uses Supabase API function
+import { fetchProducts } from "../api"; // API function
 import ProductCard from "../components/ProductCard";
-import Filters from "../components/Filters";
+import FilterBar from "../components/FilterBar";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -14,9 +14,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        console.log("Fetching products with filters:", filters);
-        const data = await fetchProducts(filters); // Fetch from Supabase
-        console.log("Received products:", data);
+        const data = await fetchProducts(filters);
         setProducts(data || []);
       } catch (error) {
         console.error("Failed to load products:", error);
@@ -25,8 +23,8 @@ const Products = () => {
     getProducts();
   }, [filters]);
 
-  const handleFilterChange = (name, value) => {
-    setFilters((prevFilters) => ({ ...prevFilters, [name]: value }));
+  const handleFilterChange = (e) => {
+    setFilters({ ...filters, [e.target.name]: e.target.value });
   };
 
   const handleAddToCart = (product) => {
@@ -35,10 +33,10 @@ const Products = () => {
 
   return (
     <div className="products-page">
-      <Filters filters={filters} onFilterChange={handleFilterChange} />
+      <FilterBar filters={filters} onFilterChange={handleFilterChange} />
       <div className="products">
         {products.length === 0 ? (
-          <p>No products found. Try adjusting filters.</p>
+          <p>No products found.</p>
         ) : (
           products.map((product) => (
             <ProductCard

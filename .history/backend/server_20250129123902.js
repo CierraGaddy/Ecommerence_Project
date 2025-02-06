@@ -5,15 +5,6 @@ import dotenv from "dotenv";
 import productRoutes from "./routes/productRoutes.js"; // Corrected path
 import path from "path";
 import { fileURLToPath } from "url";
-import { supabase } from "./config/supabaseClient.js";
-
-const testDatabase = async () => {
-  const { data, error } = await supabase.from("products").select("*").limit(1);
-  if (error) console.error("Supabase connection error:", error);
-  else console.log("Supabase test data:", data);
-};
-
-testDatabase();
 
 dotenv.config(); // Load environment variables
 

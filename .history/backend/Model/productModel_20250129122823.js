@@ -1,4 +1,3 @@
-//My functions that interact with my products (filters)
 import { supabase } from "../config/dbConfig.js"; // Ensure Supabase client is correctly imported
 
 // Function to fetch products from Supabase with optional filters
